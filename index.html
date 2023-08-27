@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* h3{
+        padding: 0px;
+        margin: 0px;
+    } */
+   
+    form  { display: table;      }
+p  
+   { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+</style>
+<body>
+    <h1 style="text-align: center;">ACCOUNT OPENING FORM</h1>
+    <h2>Personal Details</h3>
+    <form>
+       <label for="name"><h3>NAME: <input type="name"></label>
+       <label for="name"><h3>NAME OF <br>(Father/Guardian): <input type="name"></label></h3>
+       <label for="date"><h3>Date of Birth: <input type="date"></h3></label>
+       <label for="gender"><b>GENDER:</b>
+       <input type="radio" name="male"><b>Male</b>
+       <input type="radio" name="male"><b>Female</b></label>   
+       <label for="nationality"><h3>NATIONALITY: <input type="nationality"></h3></label><br>
+       <label for="account">Account Type:
+        <input type="radio" name="male"><b>Current</b>
+        <input type="radio" name="Female"><b>Savings</b></label> 
+            <br>
+        <!-- <label for="gender"><b>Preferences:</b>
+            <input type="radio" name="male"><b>Male</b>
+            <input type="radio" name="male"><b>Female</b>
+            <input type="radio" name="male"><b>Female</b>
+        </label>  -->
+       <label for="checkbox">PREFERENCES:
+         <input type="checkbox" name="check" /> Internet Banking
+        <input type="checkbox" name="check" /> Mobile Banking
+        <input type="checkbox" name="check" /> SMS alert
+    </label>
+    <br>
+
+<label for="address">Address
+<textarea name="address"  cols="35" rows="5"></textarea></label><br>
+
+<label for="country"><h3>Country:
+    <select name="country" >
+    <option value="pakistan">please select</option>
+    <option value="pakistan">America</option>
+    <option value="pakistan">Australia</option>
+    <option value="pakistan">Bangladesh</option>
+    <option value="pakistan">India</option></select>
+</label>
+<label for="name"><h3>Zipcode: <input type="name"></label></h3>
+<label for="phone"><h3>Phone: <input type="name"></label></h3>
+<label for="email"><h3>Email: <input type="name"></label></h3>
+<label for="password"><h3>Password(atleast 6-8 character): <input type="name"></label><br>
+    <button>Submit</button> <button>clear</button>
+    </form>
+</body>
+</html>
